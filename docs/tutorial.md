@@ -118,7 +118,7 @@ git clone https://github.com/OfficineArduinoTorino/chatlab
 virtualenv -p python3.4 venv
 . ./venv/bin/activate
 pip install -r chatlab/LabAdmin/requirements.txt
-pip install https://github.com/FablabTorino/LabAdmin/archive/master.zip
+pip install https://github.com/OfficineArduinoTorino/LabAdmin/archive/master.zip
 
 mkdir bin
 cp chatlab/LabAdmin/labadmin bin/
