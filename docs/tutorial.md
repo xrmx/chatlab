@@ -70,7 +70,7 @@ From inside the virtual machine we are going to install all requirements.
 Please note that *mysql-server* will require a password for the root user that you'll need later.
 
 ```
-sudo apt install build-essential python3.4 python3.4-dev python-virtualenv libjpeg-dev libpq-dev libmysqlclient-dev git python2.7 mysql-server
+sudo apt install build-essential python3 python3-dev python-virtualenv libjpeg-dev libpq-dev libmysqlclient-dev git python2.7 mysql-server
 sudo apt-get clean
 ```
 
@@ -115,7 +115,7 @@ Now as the *labadmin* user we can setup the *labadmin* instance:
 
 ```
 git clone https://github.com/OfficineArduinoTorino/chatlab
-virtualenv -p python3.4 venv
+virtualenv -p python3 venv
 . ./venv/bin/activate
 pip install -r chatlab/LabAdmin/requirements.txt
 pip install https://github.com/OfficineArduinoTorino/LabAdmin/archive/master.zip
